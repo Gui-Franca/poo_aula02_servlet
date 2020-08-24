@@ -48,7 +48,7 @@ public class SubtracaoServlet extends HttpServlet {
             Double n1Conv = Double.parseDouble(n1);
             Double n2Conv = Double.parseDouble(n2);
             Double res;
-            res = (n1Conv + n2Conv);
+            res = (n1Conv - n2Conv);
             out.println("<div>Resultado da subtração de "+n1Conv+" + "+n2Conv+" = "+res+"</div>");
             out.println("</body>");
             out.println("</html>");
