@@ -26,7 +26,7 @@
                 }
             %>
             <h3>Meu nome: <u>Guilherme Campreguer França</u></h3>
-            <h3>Minha idade: <u><%= idade %></u></h3>
+            <h3>Minha idade: <u><%= idade %> anos</u></h3>
             <h3>
         </div>
     </body>
